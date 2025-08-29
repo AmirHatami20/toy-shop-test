@@ -8,7 +8,7 @@ export const products = [
             "فیگور هارلی، پتک، چوب بیسبال، خرس عروسکی، سر بیبی جوکر، لیوان، نعلبکی، کتاب، بالش، تخت، کفی",
         images: [
             "/assets/img/Harley/1.jpg",
-            "/assets/img/Harley/1.jpg",
+            "/assets/img/Harley/2.jpg",
             "/assets/img/Harley/3.jpg",
         ]
     },
@@ -21,7 +21,7 @@ export const products = [
             "بدن جوکر، سر جوکر ساده، سر جوکر خونی، ماسک دلقک، دست دارای تفنگ، دست ساده، میله صندلی، پایه صندلی، کفی شطرنجی",
         images: [
             "/assets/img/Joker/1.jpg",
-            "/assets/img/Joker/1.jpg",
+            "/assets/img/Joker/2.jpg",
             "/assets/img/Joker/3.jpg",
         ]
     },
@@ -34,7 +34,7 @@ export const products = [
             "اکشن فیگور یک تیکه ثابت، دارای جزئیات زیاد و طراحی خاص",
         images: [
             "/assets/img/Joker_batman/1.jpg",
-            "/assets/img/Joker_batman/1.jpg",
+            "/assets/img/Joker_batman/2.jpg",
             "/assets/img/Joker_batman/3.jpg",
         ]
     },
@@ -47,7 +47,7 @@ export const products = [
             "اکشن فیگور جوکر، ماسک دلقک، کیف، نیمکت، کفی طرح چوب",
         images: [
             "/assets/img/Joker_leger/1.jpg",
-            "/assets/img/Joker_leger/1.jpg",
+            "/assets/img/Joker_leger/2.jpg",
             "/assets/img/Joker_leger/3.jpg",
         ]
     },
@@ -60,7 +60,7 @@ export const products = [
             "اکشن فیگور یک تکه ثابت، دارای جزئیات زیاد و طراحی فانتزی چشم نواز",
         images: [
             "/assets/img/HarryPotter/1.jpg",
-            "/assets/img/HarryPotter/1.jpg",
+            "/assets/img/HarryPotter/2.jpg",
             "/assets/img/HarryPotter/3.jpg",
         ]
     },
@@ -73,7 +73,7 @@ export const products = [
             "اکشن فیگور جوکر، سر اضافی، آرپی‌جی، دو دست مشت، دو دست باز، دو دست نیمه باز، پایه، استند",
         images: [
             "/assets/img/Joker_leger_2/1.jpg",
-            "/assets/img/Joker_leger_2/1.jpg",
+            "/assets/img/Joker_leger_2/2.jpg",
             "/assets/img/Joker_leger_2/3.jpg",
         ]
     },
