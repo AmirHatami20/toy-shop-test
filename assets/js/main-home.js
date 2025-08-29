@@ -1,11 +1,10 @@
-import {markActiveNav, updateBasketCount, setYear} from "./helper.js";
+import {markActiveNav, updateBasketCount} from "./helper.js";
 import {products} from "/data/products.js";
 import {renderProductGrid} from "./ui.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     markActiveNav();
     updateBasketCount();
-    setYear();
 
     const grid = document.getElementById("product-grid");
 

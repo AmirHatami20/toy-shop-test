@@ -16,7 +16,3 @@ export function updateBasketCount() {
     el.textContent = basket.reduce((sum, it) => sum + (it.qty || 1), 0);
 }
 
-export function setYear() {
-    const el = document.getElementById("year");
-    if (el) el.textContent = new Date().getFullYear();
-}

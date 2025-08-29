@@ -1,10 +1,9 @@
 import {products} from "/data/products.js";
-import {updateBasketCount, setYear} from "./helper.js";
+import {updateBasketCount} from "./helper.js";
 import {renderProductGrid} from "./ui.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     updateBasketCount();
-    setYear();
 
     const params = new URLSearchParams(window.location.search);
     const shortName = params.get("shortName");
