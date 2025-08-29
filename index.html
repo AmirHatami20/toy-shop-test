@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8"/>
+    <title>سایت اسباب بازی | toy-shop</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/product-card.css">
+    <link rel="stylesheet" href="assets/css/main-home.css">
+</head>
+<body>
+<!-- Header -->
+<header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="index.html">Toy Store</a>
+        <nav class="nav">
+            <a class="nav-link" href="index.html" data-route="home">خانه</a>
+            <a class="nav-link" href="basket.html" data-route="basket">
+                سبد خرید 🛒 <span id="basket-count">0</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<!-- Main -->
+<main class="container">
+    <section class="hero">
+        <h1>به فروشگاه اسباب‌بازی خوش اومدی! 🧸</h1>
+        <p>بهترین اسباب‌بازی‌ها برای همهٔ سنین.</p>
+    </section>
+
+    <!-- Products -->
+    <section class="product-section">
+        <h2>محصولات منتخب</h2>
+        <div id="product-grid" class="product-grid"></div>
+    </section>
+</main>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="year"></span> Toy Store — همه حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script type="module" src="assets/js/main-home.js"></script>
+</body>
+</html>

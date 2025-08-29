@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8"/>
+    <title>سبد خرید</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/product-card.css">
+    <link rel="stylesheet" href="assets/css/main-basket.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="index.html">Toy Store</a>
+        <nav class="nav">
+            <a class="nav-link" href="index.html" data-route="home">خانه</a>
+            <a class="nav-link" href="basket.html" data-route="basket">
+                سبد خرید 🛒 <span id="basket-count">0</span>
+            </a>
+        </nav>
+    </div>
+</header>
+
+<main class="container basket-page">
+    <div class="basket-products" id="basket-products">
+        <!-- Data comes from Js -->
+    </div>
+
+    <aside class="basket-summary" id="basket-summary">
+        <h2>خلاصه خرید</h2>
+        <p>تعداد محصولات: <span id="total-qty">0</span></p>
+        <p>مجموع قیمت: <span id="total-price">0</span> تومان</p>
+        <button class="btn-primary">ثبت خرید</button>
+    </aside>
+</main>
+
+<script type="module" src="assets/js/main-basket.js"></script>
+</body>
+</html>

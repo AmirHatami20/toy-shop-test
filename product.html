@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>جزئیات محصول</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/product-card.css">
+    <link rel="stylesheet" href="assets/css/main-product.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="site-header">
+    <div class="container nav-wrap">
+        <a class="brand" href="index.html">Toy Store</a>
+        <nav class="nav">
+            <a class="nav-link" href="index.html" data-route="home">خانه</a>
+            <a class="nav-link" href="basket.html" data-route="basket">
+                سبد خرید 🛒
+                <span id="basket-count">0</span>
+            </a>
+        </nav>
+    </div>
+</header>
+<main class="container">
+    <div class="product-container">
+        <div id="product-details" class="product-details">
+            <!-- Data comes from js -->
+        </div>
+        <!-- Products -->
+        <section class="product-section">
+            <h2>محصولات مرتبط</h2>
+            <div id="product-grid" class="product-grid">
+                <!-- Data comes from js -->
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="year"></span> Toy Store — همه حقوق محفوظ است.</p>
+    </div>
+</footer>
+
+<script type="module" src="assets/js/main-product.js"></script>
+</body>
+</html>

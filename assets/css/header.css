@@ -1,0 +1,19 @@
+.site-header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(255,255,255,.86);
+    backdrop-filter:saturate(180%) blur(12px);
+    border-bottom:1px solid #eee;
+}
+.nav-wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:800;}
+.nav{display:flex;gap:14px;align-items:center}
+.nav-link{
+    padding:8px 12px;border-radius:12px;color:#333;transition:.2s ease;
+}
+.nav-link:hover{background:#f0f0f4}
+.nav-link.active{background:#1f2937;color:#fff}
+#basket-count{
+    display:inline-flex;min-width:20px;height:20px;padding:0 6px;
+    align-items:center;justify-content:center;
+    background:#ef4444;color:#fff;border-radius:999px;font-size:12px;margin-inline-start:6px;
+}
